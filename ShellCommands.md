@@ -5,7 +5,7 @@ A brief reference for commonly used Linux commands.
 ## FILES & NAVIGATION
 
 ```bash
-ls                  # collections.C.collections.Lists files and directories.
+ls                  # Lists files and directories.
 ls -l               # Displays a detailed listing.
 ls -la              # Displays a detailed listing, including hidden files.
 cd dir              # Changes to directory `dir`.
