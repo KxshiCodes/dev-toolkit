@@ -74,13 +74,6 @@
 `yy`                # Copy the current line.
 ```
 
-## Replace
-
-```bash
-`:%s/{old text}/{new text}/g`   # Replace all occurrences of old text with new text in the current file.
-`:%s/{old text}/{new text}/gc`  # Replace all occurrences of old text with new text in the current file, with a prompt to confirm each replacement.
-```
-
 ## Search & Find
 
 ```bash
@@ -113,6 +106,7 @@
 `==`                # Auto-indent the current line.
 `=%`                # Auto-indent the current block (e.g., a function).
 ```
+
 ## Help
 
 ```bash
