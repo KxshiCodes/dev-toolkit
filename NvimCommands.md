@@ -78,10 +78,10 @@
 ```bash
 `v`                 # Enter visual mode.
 `y`                 # Yank mode copies selection.
-`yy`                # Copy the current line.
-`{Visual mode} y`   # Copy the selected text.
+`y`                 # Delete copies and deletes the selection.
 `p`                 # Paste the text that was last yanked or deleted after the cursor.
 `P`                 # Paste the text that was last yanked or deleted before the cursor.
+`yy`                # Copy the current line.
 ```
 
 ## Replace
