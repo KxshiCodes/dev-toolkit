@@ -24,6 +24,9 @@
      `k`            # Move the cursor up.
  `h`     `l`        # Move the cursor left and right
      `j`            # Move the cursor down.
+     `{`            # Move the cursor up.
+ `b`     `w`        # Move the cursor left and right
+     `}`            # Move the cursor down.
 `w`                 # Move the cursor to the beginning of the next word.
 `b`                 # Move the cursor to the beginning of the previous word.
 `e`                 # Move the cursor to the end of the current word.
