@@ -21,7 +21,9 @@
 ## Navigation
 
 ```bash
-`h`, `j`, `k`, `l`  # Move the cursor left, down, up, and right, respectively.
+     `k`            # Move the cursor up.
+ `h`     `l`        # Move the cursor left and right
+     `j`            # Move the cursor down.
 `w`                 # Move the cursor to the beginning of the next word.
 `b`                 # Move the cursor to the beginning of the previous word.
 `e`                 # Move the cursor to the end of the current word.
