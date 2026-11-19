@@ -10,7 +10,7 @@
  `h`     `l`        # Move the cursor left and right
      `j`            # Move the cursor down.
 
-`i`                 # Enter insert mode at the current cursor position.
+`i`                 # Enters Insert mode from Normal mode.
 `:w`                # Save the current file.
 `:w {file}`         # Save the current file as the specified file.
 `:wq`               # Save and quit.
