@@ -6,6 +6,11 @@
 `nvim`              # Enter Neovim from terminal.
 `nvim {filename}.rb`# Enter a folder in Neovim.
 `h`, `j`, `k`, `l`  # Move the cursor left, down, up, and right, respectively.
+`:w`                # Save the current file.
+`:w {file}`         # Save the current file as the specified file.
+`:wq`               # Save and quit.
+`:q`                # Quit.
+`:q!`               # Quit without saving.
 `Esc`               # Exit insert mode.
 
 ```
