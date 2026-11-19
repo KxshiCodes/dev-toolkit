@@ -1,12 +1,15 @@
 # Basic nvim Commands 
 
-## start
+## Typicl Workflow
 
 ```bash
 `nvim`              # Enter Neovim from terminal.
 `nvim {filename}.rb`# Enter a folder in Neovim.
+`h`, `j`, `k`, `l`  # Move the cursor left, down, up, and right, respectively.
+`Esc`               # Exit insert mode.
 
 ```
+
 
 ## Navigation
 
@@ -37,13 +40,6 @@
 `d{motion}`         # Delete the text that is moved over with the specified motion (e.g., dw will delete the current word).
 `dd`                # Delete the current line.
 `{Visual mode}`     # Select text to operate on it (e.g., d will delete the selected text).
-```
-
-## Insert mode
-
-```bash
-`Esc`               # Exit insert mode.
-`Ctrl + [`          # Exit insert mode.
 ```
 
 ## Visual mode
