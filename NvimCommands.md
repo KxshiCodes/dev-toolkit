@@ -12,6 +12,10 @@
 
 `i`                 # Enters Insert mode from Normal mode.
 `v`                 # Enter visual mode.
+`d{motion}`         # Delete the text that is moved over with the specified motion (e.g., dw will delete the current word).
+`dd`                # Delete the current line.
+`u`                 # Undo the last change.
+`Ctrl + r`          # Redo the last undone change.
 `:w`                # Save the current file.
 `:w {file}`         # Save the current file as the specified file.
 `:wq`               # Save and quit.
@@ -58,25 +62,11 @@
 `{Visual mode}`     # Select text to operate on it (e.g., d will delete the selected text).
 ```
 
-## Undo and redo
-
-```bash
-`u`                 # Undo the last change.
-`Ctrl + r`          # Redo the last undone change.
-```
-
-## Search
-
-```bash
-`/{pattern}`        # Search for the specified pattern.
-`n`                 # Jump to the next match of the current search pattern.
-`N`                 # Jump to the previous match of the current search pattern.
-```
-
 ## Copy, Paste, Delete in Visual Mode
 
 ```bash
 `v`                 # Enter visual mode.
+`V`                 # Enters Visual line mode from Normal mode.
 `y`                 # Yank mode copies selection.
 `y`                 # Delete copies and deletes the selection.
 `p`                 # Paste the text that was last yanked or deleted after the cursor.
@@ -91,23 +81,12 @@
 `:%s/{old text}/{new text}/gc`  # Replace all occurrences of old text with new text in the current file, with a prompt to confirm each replacement.
 ```
 
-## Splitting windows
+## Search & Find
 
 ```bash
-`:split`            # Split the window horizontally.
-`:vsplit`           # Split the window vertically.
-`Ctrl + w h, Ctrl + w j, Ctrl + w k, Ctrl + w l`    # Move to the window to the left, below, above, or right of the current window, respectively.
-`:q`                # Close the current window.
-```
-
-## Tabs
-
-```bash
-`:tabnew`           # Open a new tab.
-`gt`                # Move to the next tab.
-`gT`                # Move to the previous tab.
-`{tab number}gt`    # Move to the specified tab number.
-`:tabclose`         # Close the current tab.
+`/`                 #  Initiates a search.
+`n`                 # Jump to the next match of the current search pattern.
+`N`                 # Jump to the previous match of the current search pattern.
 ```
 
 ## File management
