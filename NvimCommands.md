@@ -6,8 +6,7 @@
 `nvim`              # Enter Neovim from terminal.
 `nvim {filename}.rb`# Enter a folder in Neovim.
      `k`            # Move the cursor up.
-`h`, `j`, `k`, `l`  # Move the cursor left.
-`h`, `j`, `k`, `l`  # Move the cursor right.
+ `h`     `l`        # Move the cursor left and right
      `j`            # Move the cursor down.
 `:w`                # Save the current file.
 `:w {file}`         # Save the current file as the specified file.
