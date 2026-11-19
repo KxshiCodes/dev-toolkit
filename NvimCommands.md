@@ -11,6 +11,7 @@
      `j`            # Move the cursor down.
 
 `i`                 # Enters Insert mode from Normal mode.
+`v`                 # Enter visual mode.
 `:w`                # Save the current file.
 `:w {file}`         # Save the current file as the specified file.
 `:wq`               # Save and quit.
@@ -57,15 +58,6 @@
 `{Visual mode}`     # Select text to operate on it (e.g., d will delete the selected text).
 ```
 
-## Visual mode
-
-```bash
-`v`                 # Enter visual mode.
-`V`                 # Enter visual line mode.
-`Ctrl + v`          # Enter visual block mode.
-`Esc`               # Exit visual mode.
-```
-
 ## Undo and redo
 
 ```bash
@@ -81,19 +73,11 @@
 `N`                 # Jump to the previous match of the current search pattern.
 ```
 
-## Saving and quitting
+## Copy, Paste, Delete in Visual Mode
 
 ```bash
-`:w`                # Save the current file.
-`:w {file}`         # Save the current file as the specified file.
-`:wq`               # Save and quit.
-`:q`                # Quit.
-`:q!`               # Quit without saving.
-```
-
-## Cut, copy, and paste
-
-```bash
+`v`                 # Enter visual mode.
+`y`                 # Yank mode copies selection.
 `yy`                # Copy the current line.
 `{Visual mode} y`   # Copy the selected text.
 `p`                 # Paste the text that was last yanked or deleted after the cursor.
