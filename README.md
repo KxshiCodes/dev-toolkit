@@ -1,11 +1,20 @@
-# Dev Toolkit
+# Dev Cheatsheet
 
-A personal cheat sheet for everyday development commands.
+A personal quick reference for everyday development commands and shortcuts.
 
-Contains quick references, useful examples and notes for:
+## Contents
 
-- **Shell:** Navigation, file management and terminal commands.
-- **Git:** Version control, commits, branches and repositories.
-- **Nvim:** 
+### Shell
+- Navigation
+- File management
+- Terminal commands
 
-A simple reference to revisit whenever needed.
+### Git
+- Repository management
+- Commits and branches
+- Common Git commands
+
+### Neovim
+- Navigation
+- Editing shortcuts
+- Useful commands
