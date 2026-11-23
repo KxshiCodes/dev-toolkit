@@ -1,5 +1,3 @@
-[🇬🇧 English](README.md) | [🇫🇷 Français](README.fr.md)
-
 # Dev Toolkit
 
 A personal cheat sheet for everyday development commands.
